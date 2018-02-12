@@ -2,7 +2,7 @@
 
 using namespace std;
 
-inline int natural(int number){
+inline void natural(int number){
 	int count = 0, a[100];
 	while(number > 0){
 		a[count] = number % 10;
